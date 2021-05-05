@@ -1,0 +1,525 @@
+﻿<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  
+  <title>Passage en revue des statistiques vidéo relatives aux médias sociaux</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">  
+  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&amp;display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/prism.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/styles.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/landing-page.css">
+  <link rel="stylesheet" href="https://support.brightcove.com/site-assets/css/site/tabs.css">
+  <link rel="stylesheet" href="/assets/css/local.css">
+  <link data-react-helmet="true" rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500&display=swap">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/381443caa8.js" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/google-analytics.js"></script>
+  <script src="/assets/js/sajari-head.js"></script>
+</head>
+
+<body class="body">
+
+<header>
+  <div class="div-header">
+    <a href="/"><span class="product-logo" style="font-family:'Balto Web','Public Sans';font-size:2em;font-weight:bold;">BRIGHTCOVE SOCIAL<sup>™</sup></span></a>
+<!-- GTranslate: https://gtranslate.io/ -->
+<select onchange="doGTranslate(this);"><option value="">Sélectionner la langue</option><option value="en|en" translate="No">English</option><option value="en|zh-TW" translate="No">繁體中文</option><option value="en|fr" translate="No">Français</option><option value="en|de" translate="No">Deutsche</option><option value="en|ja" translate="No">日本語</option><option value="en|ko" translate="No">한국어</option><option value="en|es" translate="No">Español</option></select>
+
+<script>
+/* <![CDATA[ */
+function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];var plang=location.hostname.split('.')[0];if(plang.length !=2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw')plang='en';location.href=location.protocol+'//'+(lang == 'en' ? '' : lang+'.')+location.hostname.replace('www.', '').replace(RegExp('^' + plang + '\\.'), '')+location.pathname+location.search;}
+/* ]]> */
+</script>
+
+
+
+    <span class="secondary-nav"><a href="https://supportportal.brightcove.com/s/login/?"><img src="https://support.brightcove.com/site-assets/images/site/support.png" alt="assistance"/> Contacter le support</a> <span style="vertical-align: top;margin-left:1em;margin-right:1em;">|</span> <a href="https://status.brightcove.com/">État<img src="https://support.brightcove.com/site-assets/images/site/status.png" alt="état du système"/> du système</a></span> <br/>
+    
+  </div>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb arr-right">
+      
+      <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+      
+      
+      
+      <li class="breadcrumb-item"><a href="/analytics/">Analytique</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Passage en revue des statistiques vidéo relatives aux médias sociaux</li>
+    </ol>
+  </nav>
+</header>
+<div class="container">
+    <div class="row">
+            <div class="col-sm-3 left-side-bar">
+        <select id="site_select" class="bcls-select" style="margin-right: 1rem;">
+          <option value="">Autres documents Brightcove</option>
+          
+            
+              <option value="https://support.brightcove.com">Accueil Documentation</option>
+            
+          
+            
+              <option value="https://audience.support.brightcove.com">Audience de Brightcove</option>
+            
+          
+            
+              <option value="https://beacon.support.brightcove.com">Balise Brightcove</option>
+            
+          
+            
+              <option value="https://campaign.support.brightcove.com">Campagne Brightcove</option>
+            
+          
+            
+              <option value="https://engage.support.brightcove.com">Brightcove Engagez</option>
+            
+          
+            
+              <option value="https://live.support.brightcove.com">Brightcove Live</option>
+            
+          
+            
+              <option value="https://gallery.support.brightcove.com">Brightcove Gallery</option>
+            
+          
+            
+              <option value="https://ssai.support.brightcove.com">Brightcove SSAI</option>
+            
+          
+            
+              <option value="https://social.support.brightcove.com">Brightcove Social</option>
+            
+          
+            
+              <option value="https://studio.support.brightcove.com">Video Cloud Studio</option>
+            
+          
+            
+              <option value="https://player.support.brightcove.com">Développement du joueur Brightcove</option>
+            
+          
+            
+              <option value="https://apis.support.brightcove.com">API de la plate-forme Video Cloud</option>
+            
+          
+            
+              <option value="https://sdks.support.brightcove.com">SDK pour périphériques Video Cloud</option>
+            
+          
+            
+              <option value="https://integrations.support.brightcove.com">Intégrations et connecteurs CMS</option>
+            
+          
+            
+              <option value="https://general.support.brightcove.com">Informations générales sur Video Cloud</option>
+            
+          
+            
+              <option value="https://zencoder.support.brightcove.com">Zencoder</option>
+            
+          
+        </select>
+
+        <nav class="sidenav" id="side_nav">
+          
+            
+            <h5><a href="/index.html">Accueil</a></h5>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/get-started/index.html">Mise en route <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/get-started/getting-started-brightcove-social.html">Démarrer avec l'audience</a></li>
+                  
+                
+                  
+                    <li><a href="/get-started/social-training-videos.html">Vidéos de formation sociale</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/general/index.html">Informations générales <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/general/creating-social-media-publishing-destinations.html">Création de destinations de publication</a></li>
+                  
+                
+                  
+                    <li><a href="/general/creating-video-clip-using-brightcove-social.html">Création d'un clip vidéo</a></li>
+                  
+                
+                  
+                    <li><a href="/general/publishing-videos-social-media-platforms.html">Publication de vidéos sur les réseaux sociaux</a></li>
+                  
+                
+                  
+                    <li><a href="/general/setting-privacy-status-video.html">Définition de l'état de confidentialité d'une vidéo</a></li>
+                  
+                
+                  
+                    <li><a href="/general/using-auto-sync-synchronize-videos-social-media-accounts.html">Utilisation de la synchronisation automatique</a></li>
+                  
+                
+                  
+                    <li><a href="/general/viewing-videos-published-social-media.html">Visualisation des vidéos publiées sur les réseaux sociaux</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/analytics/index.html">Vérification des analyses <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/analytics/reviewing-social-analytics.html">Revoir Social Analytics</a></li>
+                  
+                
+                  
+                    <li><a href="/analytics/reviewing-social-engagement-analytics.html">Examen des analyses Social Engagement</a></li>
+                  
+                
+                  
+                    <li><a href="/analytics/reviewing-social-views-analytics.html">Vérification de l'analyse des vues sociales</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/develop/index.html">Développeurs <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    <li><a href="/develop/overview-social-api.html">Vue d'ensemble : API sociale</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/quick-start-social-api.html">Brève introduction : API sociale</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/reference.html">Référence de l'API sociale</a></li>
+                  
+                
+                  
+                    <li><a href="/develop/social-api-error-reference.html">API sociale : Référence d'erreur</a></li>
+                  
+                
+              </ul>
+            
+          
+            
+              <h5 class="submenu-header"><a href="/support/index.html">Support <strong>+</strong></a></h5>
+              <ul class="sidenav-submenu" style="display:none;">
+                
+                  
+                    
+                  
+                
+                  
+                    <li><a href="/support/viewing-brightcove-system-status-page.html">Affichage de la page État du système Brightcove</a></li>
+                  
+                
+                  
+                    <li><a href="/support/contact-sales.html">Contacter les ventes</a></li>
+                  
+                
+                  
+                    <li><a href="/support/opening-case-with-brightcove-support.html">Ouverture d'un dossier de support</a></li>
+                  
+                
+              </ul>
+            
+          
+      </nav>
+    </div>
+    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
+  <!-- bootstrap layout -->
+
+<p id="bc_veggie_burger_wrapper" style="display: none;"><img id="bc_veggie_burger" src="/assets/images/feather/menu.svg" alt="Menu de navigation"/></p>
+
+<!-- search bar -->
+<div id="nav-search-box" style="margin-top: 1rem;"></div>
+<!-- in-page navigation for narrow screens -->
+<details class="centered-inpage-nav" id="centered_inpage_nav">
+  <summary><h6 class="toc">Contenu de la page</h6></summary>
+  <nav id="centered_toc"></nav>
+  <ul id="centered_in_page_toc" class="list-none"></ul>
+</details>
+<!-- open in new tab/window -->
+<a id="open_new_tab" href="#" target="_blank" style="display: none;"><img src="/assets/images/feather/external-link.svg" alt="ouvrir dans un nouvel onglet" style="margin-top:4em;width: 1.5em;"/></a>
+
+
+
+  
+    
+
+
+<article class="bcls-article">
+  <h1>Passage en revue des statistiques vidéo relatives aux médias sociaux</h1>
+  <summary>Dans cette rubrique, vous apprendrez comment surveiller les performances sociales de vos vidéos à l'aide de Brightcove Social.</summary>
+  <section class="bcls-section">
+    <p>Brightcove Social fournit plusieurs rapports qui peuvent être utilisés pour surveiller les performances de vos vidéos publiées sur vos comptes de médias sociaux :</p>
+    <ul>
+      <li><strong>Tableau de bord</strong> - Fournit une vue d'ensemble de haut niveau des performances vidéo sur les comptes de médias sociaux. Couvert dans cette rubrique.</li>
+      <li><strong>Social Views</strong> - Fournit une vue d'ensemble de la vue sociale pour les vidéos partagées sur les comptes de médias sociaux. Pour plus d'informations, reportez-vous à la section <a href="/analytics/reviewing-social-views-analytics.html">Examen des analyses des vues sociales</a></li>
+      <li><strong>Social Engagement</strong> - Fournit une vue d'ensemble de l'engagement social (J'aime, partages, retweets, etc.) pour les vidéos partagées sur les comptes de médias sociaux. Pour plus d'informations, voir <a href="/analytics/reviewing-social-engagement-analytics.html">Consulter Social Engagement Analytics</a>.</li>
+    </ul>
+    <p>Commencez par <a href="#timespan">sélectionner une période</a>. Pour sélectionner un rapport, cliquez sur un onglet en haut de la page. Le tableau de bord est affiché par défaut.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="onglets de rapport" src="/assets/images/analytics/node16643-report-tabs.png"/></figure>
+    <p>Le tableau de bord est organisé dans les sections suivantes :</p>
+    <ul>
+      <li><a href="#videoviews">Vues vidéo en un coup d'œil</a></li>
+      <li><a href="#topdest">Meilleures destinations</a></li>
+      <li><a href="#topvideos">Top vidéos</a></li>
+      <li><a href="#trend">Tendance des vues vidéo</a></li>
+    </ul>
+  </section>
+  <section class="bcls-section">
+    <h2 id="timespan">Sélection d’une période</h2>
+    <p>Pour spécifier la période des rapports, vous pouvez cliquer sur une date rapide ou utiliser le contrôle calendrier. Les données d'analyse sociale utilisent toujours le fuseau horaire GMT.</p>
+    <div class="BCL-subsection">
+      <h3>Utilisation d'une date rapide</h3>
+      <p>Une série de dates rapides se trouvent en haut de la page. Les dates suivantes sont disponibles :</p>
+      <ul>
+        <li>7 derniers jours</li>
+        <li>30 derniers jours</li>
+        <li>Mois précédent</li>
+        <li>Il y a 2 mois</li>
+      </ul>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="dates rapides" src="/assets/images/analytics/node16643-quick-dates.png"/></figure>
+      <p>Cliquez sur une date rapide pour mettre à jour le rapport.</p>
+    </div>
+    <div class="BCL-subsection">
+      <h3>Utilisation du champ Calendrier</h3>
+      <p>Vous pouvez également sélectionner une date de début et de fin en cliquant sur le contrôle calendrier.</p>
+      <figure class="bcls-figure"><img class="bcls-image--no-border" alt="sélecteur de dates" src="/assets/images/analytics/node16643-date-picker.png"/></figure>
+      <p>Cliquez sur <strong>Appliquer</strong> pour mettre à jour le rapport.</p>
+    </div>
+  </section>
+  <section class="bcls-section">
+    <h2 id="videoviews">Vues vidéo en un coup d'œil</h2>
+    <p>La section Vues vidéo en un coup d'œil affiche le nombre de vues vidéo des lecteurs Video Cloud, Facebook, YouTube et le nombre total de vues pour la période sélectionnée. La date de mise à jour est la dernière date pour laquelle Video Cloud dispose de données d'analyse sociale. Généralement, il y a un délai de 24 à 48 heures avant que les plates-formes sociales mettent à jour les vues et les données d'engagement dans leurs API.</p>
+    <aside class="bcls-aside bcls-aside--information">Remarque : Le bouton « Créer un message avec vidéo » dans Facebook analytics créera un nouveau post secondaire de votre vidéo ajouté à celui créé par Brightcove Social, provoquant l'apparition de deux messages vidéo identiques. Brightcove Social Analytics ne présentera que les données de l'original.</aside>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="vues en un clin d'œil" src="/assets/images/analytics/node16643-video-views.png"/></figure>
+    <aside class="bcls-aside bcls-aside--information">Remarque : Les API Twitter Insights ne signalent pas les vues de médias, de sorte que l'affichage des données n'est pas disponible dans le cadre de l'analyse sociale.</aside>
+    <p>En cliquant sur le lien <strong>MY SITES &amp; APPS</strong> , le rapport sur les performances de Video Cloud Analytics s'ouvrira.</p>
+    <p>Notez que les vues sont comptabilisées différemment selon chaque plateforme de médias sociaux :</p>
+    <ul>
+      <li><strong>Mes sites et applications</strong> - Video Cloud compte une vue vidéo lorsqu'une vidéo commence à être diffusée</li>
+      <li><strong>Facebook</strong> - Vue vidéo comptée lorsque le spectateur regarde une vidéo pendant au moins 3 secondes</li>
+      <li><strong>YouTube</strong> - Vue vidéo comptée lorsque le spectateur regarde une vidéo pendant « environ » 30 secondes</li>
+    </ul>
+  </section>
+  <section class="bcls-section">
+    <h2 id="topdest">Meilleures destinations</h2>
+    <p>La section Destinations les plus populaires affiche les 5 principales destinations qui ont affiché le plus de vues pour la période sélectionnée.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="destinations les plus populaires" src="/assets/images/analytics/node16643-top-dest.png"/></figure>
+    <p>Cliquez sur le titre de la vidéo pour ouvrir l' <a href="/analytics/reviewing-social-views-analytics.html">analyse des vues sociales</a> pour cette vidéo.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="topvideos2">Top vidéos</h2>
+    <p>La section Vidéos les plus populaires affiche les 5 meilleures vidéos avec le plus grand nombre de vues pour la période sélectionnée.</p>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Top vidéos" src="/assets/images/analytics/node16643-top-videos.png"/></figure>
+    <p>Cliquez sur le titre de la vidéo pour ouvrir l' <a href="/analytics/reviewing-social-views-analytics.html">analyse des vues sociales</a> pour cette vidéo.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="trend">Tendance des vues vidéo</h2>
+    <p>Le graphique Tendance Vues vidéo affiche le nombre de vues vidéo pour les vidéos publiées sur vos comptes de médias sociaux pour la période sélectionnée. Le survol d'une ligne dans le graphique affichera les données de cette date.</p>
+    <aside class="bcls-aside bcls-aside--information">Remarque : Les API Twitter Insights ne signalent pas les vues de médias, de sorte que l'affichage des données n'est pas disponible dans le cadre de l'analyse sociale.</aside>
+    <figure class="bcls-figure"><img class="bcls-image--no-border" alt="Tendance des vues vidéo" src="/assets/images/analytics/node16643-video-views-graph.png"/></figure>
+    <p>La légende à droite du graphique permet de sélectionner le niveau de détail à afficher :</p>
+    <ul>
+      <li><strong>Mes sites et applications</strong> - Afficher le nombre de vues vidéo depuis les lecteurs et applications Video Cloud</li>
+      <li><strong>Facebook</strong> - Afficher le nombre de visionnages vidéo sur Facebook</li>
+      <li><strong>YouTube</strong> - Afficher le nombre de vidéos vues sur YouTube</li>
+      <li><strong>Total</strong> - Affiche le nombre total de vues vidéo sur toutes les plateformes</li>
+    </ul>
+    <p>Les vues YouTube affichées dans les rapports analytiques sont collectées à partir du rapport <a href="https://youtube.com/analytics">d'aperçu de YouTube Analytics</a> . YouTube ne garantit pas que ces données sont des données en temps réel. Par conséquent, vous pouvez voir des retards de plusieurs jours avant que les vues et l'engagement apparaissent dans ce rapport. Une fois que les données sont dans YouTube Analytics, elles seront récupérées par les collecteurs de données nocturnes pour Brightcove Social Analytics.</p>
+    <p>Si vous avez besoin de données de visualisation en temps réel plus récentes, YouTube fournit également des <a href="https://support.google.com/youtube/answer/6096647">rapports en temps réel</a> avec des estimations des données de visionnage au cours des dernières 48 heures pour vos 25 vidéos les plus récentes publiées. Vous trouverez <a href="https://www.youtube.com/analytics?o=U#r=realtime">ici</a>le rapport en temps réel de votre chaîne YouTube. Brightcove Social Analytics ne collecte pas ces données en temps réel car elle fournit des vues estimées (par opposition aux données réelles) et ne s'applique qu'aux vidéos récentes.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="deletedvideos">Vidéos supprimées</h2>
+    <p>L'affichage de l'analyse sociale pour les vidéos supprimées dépend de la façon dont la vidéo a été distribuée et, si la vidéo était AutoSynchron'd, des paramètres AutoSync.</p>
+    <ul>
+      <li>Si la vidéo a été distribuée à l'aide de la fonctionnalité de publication sociale, la suppression de Video Cloud ne supprime pas la vidéo de la plate-forme sociale et Social continuera à collecter des analyses pour la vidéo</li>
+      <li>Si la vidéo a été distribuée à l'aide de la fonctionnalité AutoSync, la suppression de Video Cloud peut supprimer la vidéo de la plate-forme sociale, en fonction des paramètres AutoSync :
+        <ul>
+          <li>Si l'  option « Supprimer la vidéo distribuée sur » était sélectionnée, le module Social aurait supprimé la vidéo de la plateforme sociale et cesserait d'essayer de collecter des données analytiques.</li>
+          <li>Si l'une des options qui laissent la vidéo sur la plate-forme sociale (les détails exacts de ces options varient d'une plate-forme à l'autre) a été choisie, alors le module Social continuera à essayer de collecter des analyses pour cela.</li>
+        </ul>
+      </li>
+      <li>Social analytics continuera d'afficher toutes les données d'analyse sociale existantes pour les vidéos qui ont été supprimées</li>
+    </ul>
+  </section>
+</article>
+
+<!-- complete bootstrap layout -->
+    </div>
+    <div class="col-sm-2 right-side-bar">
+      
+      <nav class="right-side-nav" id="right_side_nav">
+        <h6 class="toc">Contenu de la page</h6>
+        <ul id="in_page_nav" class="list-none"></ul>
+      </nav>
+      
+    </div>
+  </div>
+</div>
+
+<hr>
+<footer class="bcls-footer" role="contentinfo">  <div class="row">
+    <div class="region region-footer-top-center col-md-12">
+      <nav role="navigation" aria-labelledby="block-brightcovesupport-menu" id="block-brightcovesupport" class="footer-menu">
+
+        <h2>Assistance Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://status.brightcove.com">État du système</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Contacter le support</a>
+          </li>
+          <li>
+            <a href="https://support.brightcove.com/">Documentation</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-training-menu" id="block-training" class="footer-menu">
+
+        <h2>Formation</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://studio.support.brightcove.com/training/online-training-courses.html">Cours en ligne</a>
+          </li>
+          <li>
+            <a href="https://studio.support.brightcove.com/training/register-training.html">S' inscrire à un cours</a>
+          </li>
+          <li>
+            <a href="https://university.brightcove.com/">Université de Brightcove</a>
+          </li>
+        </ul>
+
+      </nav>
+      <nav role="navigation" aria-labelledby="block-brightcove-menu" class="footer-menu">
+
+        <h2>Brightcove</h2>
+
+        <ul class="menu">
+          <li>
+            <a href="https://www.brightcove.com">BrightCove.com</a>
+          </li>
+          <li>
+            <a href="https://supportportal.brightcove.com/s/login/?">Contactez-nous</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <div class="region region-footer-bottom-center col-md-12">
+      <div class="bcls-copyright footer-menu">
+        <table>
+          <tr>
+            <td>
+              <div id="bc_copyright" class="field field--name-field-copyright-year field--type-string field--label-hidden field--item" style="float: left;"> Brightcove, Inc. Tous droits réservés.</div>
+            </td>
+            <td><a href="https://www.brightcove.com/en/legal/privacy">Confidentialité</a> | <a href="https://www.brightcove.com/en/terms-and-conditions">Termes et conditions</a></td>
+            <td>
+              <div class="gf-links-cols footer-menu">
+                <div class="gf-social"><a href="https://www.linkedin.com/company/16439" title="LinkedIn" newtab="newtab" class="gf-social-linkedin"><i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i></a><a href="https://twitter.com/brightcove" title="Twitter" newtab="newtab" class="gf-social-twitter"><i class="fab fa-twitter" style="font-size: 1.5rem;"></i></a><a href="https://www.facebook.com/Brightcove" title="Facebook" newtab="newtab" class="gf-social-facebook"><i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+      
+  var searchBox = sajari.init({
+    mode: "search-box",
+    project: "1588255093746585379", // Set this to your project.
+    collection: "brightcove-documenation", // Set this to your collection.
+    instantPipeline: "autocomplete", // Pipeline used as you type
+    inputPlaceholder: "Search", // Input element placeholder
+    maxSuggestions: 5, // Maximum number of suggestions to show
+    attachSearchBox: document.getElementById("nav-search-box") // DOM element to attach to
+  });
+  
+    searchBox("sub", "pipeline.search-sent", function (_, query) {
+      window.location = "/search.html?q=" + encodeURIComponent(query.q);
+    });
+  
+
+</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/https-fix.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/setDate.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/prism.js"></script>
+  
+  <script src="https://support.brightcove.com/site-assets/js/site/site.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/tabs.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/toc.js"></script>
+  <script src="/assets/js/sites_nav.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/bcls-utils.js"></script>
+  <script src="https://support.brightcove.com/site-assets/js/site/local-link-fix.js"></script>
+  <script src="/assets/js/feedback.js"></script>
+  
+  <script src="/assets/js/sajari-search-foot.js"></script>
+  
+  <!-- <script src="/assets/js/sajari-index.js"></script> -->
+  <style>
+    a.sj-paginator__page-number.sj-paginator__page-number--current.css-so0ov7 {
+      background-color: lightblue;
+    }
+    div.sj-tabs__tab {
+      margin-top: 3rem;
+      margin-left: .3rem;
+      border-top-left-radius: .4rem;
+      border-top-right-radius: .4rem;
+      background-color:#e8e8e8;
+    }
+
+    div.sj-tabs__tab.sj-tabs__tab--selected {
+      border-bottom-color: crimson;
+      background-color: #f8f8f8;
+    }
+
+    p.sj-results__result__description.css-p9jvyt {
+      font-size: 1rem;
+    }
+
+    .sj-result__text.css-31l7gp h3 {
+      color: navy;
+      font-size: 1.4rem;
+    }
+    </style>
+
+</body>
+
+</html>
