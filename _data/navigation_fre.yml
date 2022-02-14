@@ -1,0 +1,63 @@
+- section:
+  name: Accueil
+  url: /index.html
+- section:
+  name: Mise en route
+  url: /get-started/index.html
+  icon: '<img class="bcls-icon" src="/assets/images/feather/play.svg">'
+  docs:
+    - name: Premiers pas avec les réseaux sociaux
+      url: /get-started/getting-started-brightcove-social.html
+    - name: Vidéos de formation sociale
+      url: /get-started/social-training-videos.html
+- section:
+  name: Informations générales
+  icon: '<i data-feather="info"></i>'
+  url: /general/index.html
+  docs:
+    - name: Création de destinations de publication
+      url: /general/creating-social-media-publishing-destinations.html
+    - name: Création d'un clip vidéo
+      url: /general/creating-video-clip-using-brightcove-social.html
+    - name: Publication de vidéos sur les réseaux sociaux
+      url: /general/publishing-videos-social-media-platforms.html
+    - name: Définition de l'état de confidentialité d'une vidéo
+      url: /general/setting-privacy-status-video.html
+    - name: Utilisation de la synchronisation automatique
+      url: /general/using-auto-sync-synchronize-videos-social-media-accounts.html
+    - name: Visualisation des vidéos publiées sur les réseaux sociaux
+      url: /general/viewing-videos-published-social-media.html
+- section:
+  name: Examen des analyses
+  url: /analytics/index.html
+  docs:
+    - name: Revoir Social Analytics
+      url: /analytics/reviewing-social-analytics.html
+    - name: Examen des analyses Social Engagement
+      url: /analytics/reviewing-social-engagement-analytics.html
+    - name: Vérification de l'analyse des vues sociales
+      url: /analytics/reviewing-social-views-analytics.html
+- section:
+  name: Développeurs
+  url: /develop/index.html
+  docs:
+    - name: 'Vue d'ensemble : API sociale'
+      url: /develop/overview-social-api.html
+    - name: 'Brève introduction : API sociale'
+      url: /develop/quick-start-social-api.html
+    - name: 'Référence de l'API sociale'
+      url: /develop/reference.html
+    - name: 'API sociale : Référence d'erreur'
+      url: /develop/social-api-error-reference.html
+- section:
+  name: Soutien
+  url: /support/index.html
+  docs:
+    - name: 'Affichage de la page État du système Brightcove'
+      url: '/support/viewing-brightcove-system-status-page.html'
+    - name: 'Contacter les ventes'
+      url: '/support/contact-sales.html'
+    - name: 'Ouverture d'un dossier de support'
+      url: '/support/opening-case-with-brightcove-support.html'
+    - name: 'Réinitialiser votre mot de passe de portail d'assistance'
+      url: '/support/reset-support-portal-password.html'
